@@ -1,4 +1,4 @@
-*/This script purpose is to load the tables in bronze schema from source systems 
+/*This script purpose is to load the tables in bronze schema from source systems 
 ----------------------------------------------------------
  This script Uses Bulk insert method to load the data from sources
  This script calculate the loading duration for each table and for entire batch load 
