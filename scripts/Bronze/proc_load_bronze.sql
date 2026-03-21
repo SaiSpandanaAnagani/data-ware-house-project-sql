@@ -1,12 +1,12 @@
 */This script purpose is to load the tables in bronze schema from source systems 
-*----------------------------------------------------------*
- *This script Uses Bulk insert method to load the data from sources
+----------------------------------------------------------
+ This script Uses Bulk insert method to load the data from sources
  This script calculate the loading duration for each table and for entire batch load 
 This script uses variables and try catch methods to identify any errors 
 Entire script was stored in a procedure bronze.load_bronze
 
 Usage: EXEC bronze.load_bronze
-  */-----------------------------------------------------------*/
+  -----------------------------------------------------------/*
 
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
